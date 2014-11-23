@@ -73,11 +73,11 @@ source('run_analysis.R')
     1. Substitute the automatic columns names of the features with the new ones
 1. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
     1. With melt function create a new narrow dataset with four columns: Subject, Activity, Variable, Value: 
-        ```
-        Subject Activity  variable         value
-        1       STANDING  tBodyAcc-mean-X  0.2885845
-        1       STANDING  tBodyAcc-mean-X  0.2784188
-        ```
+```
+Subject Activity  variable         value
+1       STANDING  tBodyAcc-mean-X  0.2885845
+1       STANDING  tBodyAcc-mean-X  0.2784188
+```
     1. With cast function merge all rows with the same Subject + Activity + Feature in one only row, with the mean of all observations
     1. Add the word "Average" to the name of each average feature column
     1. Print the tidy dataset 
