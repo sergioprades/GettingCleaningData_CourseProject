@@ -78,6 +78,7 @@ Subject Activity  variable         value
 1       STANDING  tBodyAcc-mean-X  0.2885845
 1       STANDING  tBodyAcc-mean-X  0.2784188
 ```
+
     1. With cast function merge all rows with the same Subject + Activity + Feature in one only row, with the mean of all observations
     1. Add the word "Average" to the name of each average feature column
     1. Print the tidy dataset 
